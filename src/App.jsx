@@ -1,15 +1,25 @@
+import { Buton } from "./components/utils/Buton";
+import { Ejercicio01 } from "./components/ejercicio01";
+import { NavBar } from "./components/NavBar";
+
 function App() {
   return (
     <>
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h1 className="h1 text-center mt-2 bg-danger" >Welcome to My React App</h1>
+            <h1 className="h1 text-center mt-2 bg-danger">
+              Welcome to My React App
+            </h1>
           </div>
         </div>
+        {/**Mando a llamra componente externo */}
+        <Ejercicio01 />
+        <Buton />
+        <NavBar />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
