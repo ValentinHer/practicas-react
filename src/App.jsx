@@ -2,6 +2,7 @@ import { Buton } from "./components/utils/Buton";
 import { Ejercicio01 } from "./components/ejercicio01";
 import { NavBar } from "./components/NavBar";
 import Ejercicio02 from "./components/Ejercicio02";
+import Ejercicio03 from "./components/Ejercicio03";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Buton />
         <NavBar />
         <Ejercicio02 />
+        <Ejercicio03 />
       </div>
     </>
   );
