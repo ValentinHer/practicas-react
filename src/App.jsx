@@ -1,6 +1,7 @@
 import { Buton } from "./components/utils/Buton";
 import { Ejercicio01 } from "./components/ejercicio01";
 import { NavBar } from "./components/NavBar";
+import Ejercicio02 from "./components/Ejercicio02";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Ejercicio01 />
         <Buton />
         <NavBar />
+        <Ejercicio02 />
       </div>
     </>
   );
