@@ -3,6 +3,7 @@ import { Ejercicio01 } from "./components/ejercicio01";
 import { NavBar } from "./components/NavBar";
 import Ejercicio02 from "./components/Ejercicio02";
 import Ejercicio03 from "./components/Ejercicio03";
+import Ejercicio04 from "./components/Ejercicio04";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <NavBar />
         <Ejercicio02 />
         <Ejercicio03 />
+        <Ejercicio04 />
       </div>
     </>
   );
