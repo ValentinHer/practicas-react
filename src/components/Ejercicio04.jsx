@@ -11,7 +11,7 @@ const Ejercicio04 = () => {
     <>
       <div className="row mt-4 mb-4">
         <div className="col-12">
-          <div className="h4 mt-4">Ejercicio 3 - Funciones - Saludo</div>
+          <div className="h4 mt-4">Ejercicio 4 - Funciones - Saludo</div>
         </div>
         <hr />
         <div className="col-12 text-center">
